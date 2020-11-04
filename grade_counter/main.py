@@ -9,10 +9,7 @@ elif grade <=60:
     print ("C. Eh, pretty mediocre. I expect more.")
 elif grade <=80:
     print ("B. Pretty good my dude, you could always go for more.")
-elif grade >= 81:
+elif grade <= 100:
     print ("A. THATS MAH BOIIIIIIIIIII")
-elif grade >=101:
-    print("You can't go over 100 by acciddent. But the only accident here I see, is you.")
-
-#TODO: Fix the program to cap at 100. If you put anything over 100 it gets
-#accepted as an A.
+else:
+    print ("You did an oopsie, try again.")
